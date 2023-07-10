@@ -1,0 +1,104 @@
+/*universal/asterisk selector: selects all elements in an HTML document*/
+* {
+    margin: 0%;
+    padding:0%;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+.primary-btn {
+    border-radius: 8px;
+    background: #E55473;
+    padding: 15px 30px;
+    border:none;
+    color:white;
+}
+
+/*style banner section*/
+.banner-container {
+    height: 100vh;
+    background: rgba(229, 84, 115, 0.10);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.banner-container-content {
+    margin:0px 0px 0px 150px
+}
+.banner-container-content-title {
+    font-size:65px;
+    font-weight: 800px;
+}
+.banner-container-content-desc {
+    padding: 20px 0px 20px 0px;
+}
+.banner-container-image img {
+    max-width: 500px;
+    margin:62px 150px 0px 0px
+}
+
+/*Featured Flowers section style*/
+.featured-container {
+    /* margin:100px 0px 0px 0px; */
+    height:80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.featured-container-title {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+
+}
+.featured-container-desc {
+    text-align: center;
+    padding:10px 0px 10px 0px;
+}
+.flowers-container {
+    display: flex;
+    justify-content:center;
+    gap:10px;
+    margin-top:10px;
+}
+.featured-flower {
+    margin-right:2px;
+}
+.featured-flower,p {
+    text-align: center;
+}
+.flower-card-one {
+    width:245px;
+    height: 275px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+
+}
+.flower-card-two {
+    width:245px;
+    height: 275px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);}
+.flower-card-three {
+    width:245px;
+    height: 275px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);}
+.flower1 {
+    width: 160px;
+    margin:55px;
+    
+}
+.flower2 {
+    width: 220px;
+    margin:30px;
+}
+
+.flower3 {
+    width: 160px;
+    margin:35px;  
+}
+
