@@ -17,7 +17,7 @@ body {
 
 /*style banner section*/
 .banner-container {
-    height: 100vh;
+    height: 850px;
     background: rgba(229, 84, 115, 0.10);
     display: flex;
     justify-content: space-between;
@@ -36,7 +36,7 @@ body {
 }
 .banner-container-image img {
     max-width: 550px;
-    margin:57px 150px 0px 0px
+    margin:0px 150px 0px 0px
 }
 
 /*style Featured Flowers section */
